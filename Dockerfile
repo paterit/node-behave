@@ -48,3 +48,6 @@ ENV HTTP_SERVER_PORT 8888
 RUN chmod +x entrypoint.sh
 
 CMD ["/paterit/node-behave-alpine/entrypoint.sh"]
+
+# example usage
+# docker run -it paterit/node-behave-alpine
