@@ -43,7 +43,7 @@ RUN pip install -U pip \
 COPY . .
 
 # in the entrypoint.sh simple http server will be started with this port
-ENV HTTP_SERVER_PORT 8888
+ENV DUMMY_HTTP_SERVER_PORT 8888
 
 RUN chmod +x entrypoint.sh
 
