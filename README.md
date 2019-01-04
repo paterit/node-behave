@@ -4,6 +4,6 @@ Based on node-alpine image for running [Behave](https://github.com/behave/behave
 
 Usage:
 ```sh
-$ docker run -it paterit/node-behave-alpine
+$ docker run -it paterit/node-behave
 ```
 
