@@ -11,9 +11,9 @@ behave:
   filter: /^\d+\.\d+\.\d+$/
 selenium:
   component-type: pypi
-  current-version: 3.11
+  current-version: !!str 3.11
   files: [requirements.txt]
-  filter: /^\d+\.\d+$/
+  filter: /^\d+\.\d+.*$/
 requests:
   component-type: pypi
   current-version: 2.20.0
