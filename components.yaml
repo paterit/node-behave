@@ -2,7 +2,7 @@ node:
   component-type: docker-image
   current-version: 10.2-alpine
   docker-repo: library
-  filter: /^\d+\.\d+-alpine$/
+  filter: /.*alpine$/
   files: [Dockerfile]
 behave:
   component-type: pypi
