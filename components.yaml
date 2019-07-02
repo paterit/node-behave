@@ -25,5 +25,5 @@ selenium:
   current-version: 3.141.0
   files:
   - requirements.txt
-  filter: /^\d+\.\d+.*$/
+  filter: /^\d+\.\d+\.\d+$/
   next-version: 3.141.0
