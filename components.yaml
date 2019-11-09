@@ -7,12 +7,12 @@ behave:
   next-version: 1.2.6
 node:
   component-type: docker-image
-  current-version: 12.5-alpine
+  current-version: 13.1-alpine
   docker-repo: library
   files:
   - Dockerfile
   filter: /.*alpine$/
-  next-version: 12.5-alpine
+  next-version: 13.1-alpine
 requests:
   component-type: pypi
   current-version: 2.22.0
