@@ -15,7 +15,7 @@ node:
   next-version: 14.14-alpine
 requests:
   component-type: pypi
-  current-version: 2.23.0
+  current-version: 2.24.0
   files:
   - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
