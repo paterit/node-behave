@@ -1,4 +1,4 @@
-FROM node:15.1-alpine
+FROM node:15.2-alpine
 
 # Python support added based on:
 #https://github.com/frol/docker-alpine-python3/blob/master/Dockerfile
